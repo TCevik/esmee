@@ -1,1 +1,242 @@
-<h1>Hallo ik ben esmee</h1>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welkom op de Esmee website, een plek voor inspiratie over mode, lifestyle, en persoonlijke verhalen.">
+    <title>Esmee - Jouw Dagelijkse Inspiratie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 1rem 2rem;
+            border-bottom: 2px solid #eee;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header ul li {
+            margin-left: 20px;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            color: #555;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        header ul li a:hover {
+            color: #e67e22;
+        }
+
+        section {
+            padding: 2rem 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .intro {
+            background-color: #f3f3f3;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e67e22;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #d35400;
+        }
+
+        .section-over p, .section-blog p, .section-favorites p, .section-instagram p, .section-contact p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li a {
+            font-size: 1.2rem;
+            text-decoration: none;
+            color: #333;
+        }
+
+        ul li a:hover {
+            color: #e67e22;
+        }
+
+        .date {
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .newsletter form {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .newsletter input {
+            padding: 10px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
+        }
+
+        .newsletter button {
+            padding: 10px 20px;
+            background-color: #e67e22;
+            border: none;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #fff;
+            text-align: center;
+            padding: 1rem 2rem;
+            border-top: 2px solid #eee;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #e67e22;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Esmee</h1>
+            </div>
+            <ul>
+                <li><a href="#over">Over</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#favorites">Favorieten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introductie -->
+    <section class="intro">
+        <h2>Welkom op de officiële website van Esmee</h2>
+        <p>Een plek waar stijl, creativiteit en persoonlijke verhalen samenkomen.</p>
+    </section>
+
+    <!-- Over Esmee -->
+    <section id="over" class="section-over">
+        <h2>Over Esmee</h2>
+        <p>Hoi! Ik ben Esmee – content creator, dromer en liefhebber van mooie dingen. Op deze website neem ik je mee in mijn wereld: van mode en reizen tot tips over zelfontwikkeling en lifestyle.</p>
+        <a href="#over" class="btn">Lees meer over mij →</a>
+    </section>
+
+    <!-- Laatste Artikelen -->
+    <section id="blog" class="section-blog">
+        <h2>Laatste Artikelen</h2>
+        <ul>
+            <li><a href="#">5x Herfst Outfits die je Nu Wilt Proberen</a><span class="date">21 september 2025</span></li>
+            <li><a href="#">Mini Guide: Weekendje Parijs</a><span class="date">18 september 2025</span></li>
+            <li><a href="#">Selfcare Tips voor de Drukke Vrouw</a><span class="date">15 september 2025</span></li>
+        </ul>
+        <a href="#" class="btn">Bekijk alle blogs →</a>
+    </section>
+
+    <!-- Esmee's Favorites -->
+    <section id="favorites" class="section-favorites">
+        <h2>Esmee's Favorites</h2>
+        <p>Ontdek mijn favoriete producten, boeken en merken van dit moment.</p>
+        <a href="#" class="btn">Shop de Favorieten →</a>
+    </section>
+
+    <!-- Instagram Feed -->
+    <section class="section-instagram">
+        <h2>Instagram</h2>
+        <p>Volg me voor dagelijkse inspiratie, behind-the-scenes en reels!</p>
+        <a href="https://www.instagram.com/esmee.lifestyle/" target="_blank" class="btn">Volg mij op Instagram</a>
+    </section>
+
+    <!-- Nieuwsbrief -->
+    <section class="newsletter">
+        <h2>Blijf op de hoogte</h2>
+        <p>Schrijf je in voor de nieuwsbrief en ontvang elke maand een dosis inspiratie rechtstreeks in je inbox.</p>
+        <form action="#" method="post">
+            <input type="email" placeholder="Jouw e-mailadres" required>
+            <button type="submit" class="btn">Inschrijven</button>
+        </form>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-contact">
+        <h2>Contact</h2>
+        <p>Samenwerken, een vraag of gewoon iets leuks delen?</p>
+        <p>Email: <a href="mailto:esmee@jouwdomein.nl">esmee@jouwdomein.nl</a></p>
+        <p>Locatie: Nederland</p>
+        <a href="#" class="btn">Contactformulier →</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Esmee. Alle rechten voorbehouden. | <a href="#">Privacyverklaring</a> | <a href="#">Sitemap</a></p>
+    </footer>
+
+</body>
+</html>
